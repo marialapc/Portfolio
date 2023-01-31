@@ -76,8 +76,8 @@ height: 100%;
 .btn{
     margin-left: 10px;
     margin-top: 18px;
-    color: #ffffff;
-    background-color:#888888;
+    color: #030202;
+    background-color:white;
     border-radius: 3px;
     height: 26px;
     width: 72px;
@@ -87,8 +87,8 @@ height: 100%;
 footer {
     position: absolute;
     bottom: 0;
+    padding-bottom: 20px;
     width: 100%;
-    height: 80px;
   }
 
 .navbar{
