@@ -87,7 +87,7 @@ height: 100%;
 footer {
     position: absolute;
     bottom: 0;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
 
   }
 
@@ -99,7 +99,7 @@ footer {
     align-items: center;
     font-family: var(--font1);
     list-style: none;
-    gap: 20px
+    gap: 28px
 
 }
 
