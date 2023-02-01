@@ -104,44 +104,46 @@ footer {
 
 /* ABOUT-ME */
 
-.body{
-    background-color: #fff;
-}
 .home-icon {
   width: 25px;
   margin-left: 15px;
   margin-top: 20px;
 }
-.about{
-    background-color: #ffffff;
-}
+
 .hero{
     display: flex;
     flex-direction:row-reverse;
     align-items: center;
     justify-content: center;
-    margin-top: 200px;
 }
 .subtitle-about{
+    margin-top: 70px;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    color: #f1ebe5;
+    text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
+    font-weight: bold;
+    letter-spacing: -4px;
+    border-radius: 20px;
+    font-size: 50px;
 }
 .text {
   font-family: var(--font1);
   font-size: 10px;
   text-align: justify;
-  color: rgb(68, 67, 67);
+  color: rgb(80, 80, 80);
   gap: 10px;
   display: flex;
   flex-direction: column;
   width: 300px;
   margin-left: 20px;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .img {
   width: 150px;
   border-radius: 50%;
   border: 2px solid #ede9e9;
-  margin-left: 120px;
+  margin-left: 10px;
 }
 
 .btn {
