@@ -20,13 +20,12 @@ height: 100%;
 /* LANDING */
 
 .header{
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 120px;
     gap: 5px;
-    margin-left: 30px;
+    margin-left: 35px;
 }
 
 
@@ -76,29 +75,32 @@ height: 100%;
 .btn{
     margin-left: 10px;
     margin-top: 18px;
-    color: #030202;
-    background-color:white;
-    border-radius: 3px;
-    height: 26px;
-    width: 72px;
-    font-size: 10px;
+    color: #ffffff;
+    background-color:rgb(73, 73, 73);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 8px
+
 }
 
 footer {
     position: absolute;
     bottom: 0;
-    padding-bottom: 20px;
-    width: 100%;
+    padding-bottom: 60px;
+
   }
 
 .navbar{
     width: 100vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     font-family: var(--font1);
     list-style: none;
+    gap: 15px
+
 }
 
 .navbar li a {
@@ -118,7 +120,8 @@ footer {
     box-shadow: 0 3px #666565;
     text-decoration: none;
     font-size: 13px;
-    border: 1px solid rgb(13, 13, 13)
+    border: 1px solid rgb(13, 13, 13);
+    text-align: center;
 
 }
 .navbar li a:hover {
