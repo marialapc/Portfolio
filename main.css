@@ -145,7 +145,7 @@ footer {
   font-family: var(--font1);
   font-size: 16px;
   text-align: left;
-  color: var(--palette1);
+  color: var(--palette2);
   gap: 10px;
   display: flex;
   flex-direction: column;
@@ -181,7 +181,7 @@ footer {
   position: relative;
   display: inline-block;
   border-radius: 3px;
-  background: var(--palette1);
+  background: var(--palette2);
   box-shadow: 0 3px var(--palette4);
   font-size: 13px;
   border: 1px solid var(--white);
