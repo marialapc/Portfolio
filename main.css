@@ -111,7 +111,7 @@ footer {
 
 .home-icon {
   width: 25px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   margin-left: 35px;
   margin-top: 25px;
 }
@@ -123,7 +123,6 @@ footer {
     justify-content: center;
 }
 .subtitle-about{
-    margin-top: 180px;
     font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
     color: var(--title);
     text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
@@ -131,6 +130,8 @@ footer {
     letter-spacing: -4px;
     border-radius: 20px;
     font-size: 60px;
+    margin-top: 90px;
+    margin-right: 35px;
    
  
 }
@@ -143,31 +144,33 @@ footer {
 .text {
   font-family: var(--font1);
   font-size: 14px;
-  text-align: justify;
-color: var(--palette1);
+  text-align: left;
+  color: var(--palette1);
   gap: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: 30px;
+  margin-left: 10px;
   margin-right: 35px;
-  margin-top: 20px;
+  width: 250px;
+  margin-top: 28px;
 }
 
 .img {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   border: 2px solid var(--palette4);
   margin-right: 40px;
-  margin-bottom: 10px;
+  margin-top: 30px;
+
 
 }
 
 .btn {
-  margin-right: 130px;
-  margin-top: 50px;
+  margin-right: 140px;
+  margin-top: 40px;
   height: 50px;
   width: 140px;
   color: var(--white);
@@ -178,9 +181,9 @@ color: var(--palette1);
   position: relative;
   display: inline-block;
   border-radius: 3px;
-  background: rgba(89, 21, 0, 0.456);
-  box-shadow: 0 3px #e9e7e7;
+  background: var(--palette1);
+  box-shadow: 0 3px var(--palette4);
   font-size: 13px;
-  border: 1px solid rgb(36, 36, 36);
+  border: 1px solid var(--white);
   text-align: center;
 }
