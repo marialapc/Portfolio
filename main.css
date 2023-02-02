@@ -9,6 +9,7 @@
   --palette3: #e5d2c4;
   --palette4: #f2e8e1;
   --white: #ffffff; 
+  --palette5: hwb(0 72% 1%);
 
 }
 
@@ -181,9 +182,20 @@ footer {
   position: relative;
   display: inline-block;
   border-radius: 3px;
-  background: var(--palette2);
+  background: var(--palette5);
   box-shadow: 0 3px var(--palette4);
   font-size: 13px;
   border: 1px solid var(--white);
   text-align: center;
+}
+
+.btn:hover {
+  background-color: rgb(239, 234, 234);
+  box-shadow: 0 3px hwb(0 72% 1%);
+  top: 1px;
+}
+
+.btn:active {
+  box-shadow: 0 0 var(--white);
+  top: 5px;
 }
