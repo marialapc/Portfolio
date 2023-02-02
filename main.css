@@ -170,22 +170,22 @@ footer {
 }
 
 .btn {
-  margin-right: 150px;
+  margin-right: 70px;
   margin-top: 30px;
-  height: 50px;
-  width: 140px;
-  color: var(--white);
+  height: 40px;
+  width: 220px;
+  color: var(--palette1);
   padding: 5px 10px;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
-  border-radius: 3px;
-  background: var(--palette5);
-  box-shadow: 0 3px var(--palette4);
+  border-radius: 9px;
+  background: var(--white);
+  box-shadow: 0 3px var(--palette2);
   font-size: 13px;
-  border: 1px solid var(--white);
+  border: 1px solid var(--palette2);
   text-align: center;
 }
 
