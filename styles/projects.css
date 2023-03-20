@@ -1,0 +1,18 @@
+.home-icon-projects{
+    width: 25px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+
+  .title-projects{
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    color: var(--title);
+    text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
+    font-weight: bold;
+    letter-spacing: -4px;
+    border-radius: 20px;
+    font-size: 60px;
+    margin-left: 50px;
+    margin-top:20px;
+  
+  }
