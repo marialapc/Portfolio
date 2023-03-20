@@ -10,6 +10,7 @@
 .home-icon-about {
     width: 25px;
     margin-bottom: 100px;
+    transition: 0.2s;
 }
 
 .home-icon-about:hover {
