@@ -98,7 +98,6 @@ footer {
   text-align: center;
 }
 .navbar li a:hover {
-  background-color: rgb(239, 234, 234);
   box-shadow: 0 3px hwb(0 72% 1%);
   top: 1px;
 }
