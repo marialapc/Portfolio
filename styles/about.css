@@ -60,8 +60,7 @@
   }
 
 .download-btn {
-    margin-right: 70px;
-    margin-top: 40px;
+   
     height: 40px;
     width: 220px;
     color: var(--palette1);
@@ -77,6 +76,7 @@
     font-size: 13px;
     border: 1px solid var(--palette2);
     text-align: center;
+    text-decoration: none;
   }
   
   .download-btn:hover {

@@ -42,11 +42,10 @@
   font-family: var(--font1);
 }
 
-.project{
-  text-decoration: none;
-  color: var(--palette1);
+.project {
   width: 200px;
   height: 20px;
+  color: var(--palette1);
   padding: 5px 10px;
   font-weight: bold;
   cursor: pointer;
@@ -59,6 +58,11 @@
   font-size: 13px;
   border: 1px solid var(--palette2);
   text-align: center;
+  text-decoration: none;
+}
+
+.project-link{
+  text-decoration: none;
 }
 
 .project:hover {
