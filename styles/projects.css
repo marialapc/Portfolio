@@ -38,29 +38,28 @@
   display: flex;
   flex-direction: column;
   gap:23px;
-  margin-top: 50px;
+  margin-top: 60px;
   font-family: var(--font1);
+  
 }
 
 .project{
   width: 200px;
   height: 20px;
-  border-radius: 4px;
-  padding: 5px 10px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  outline: none;
-  border-radius: 3px;
-  border: none;
-  background: var(--white);
-  box-shadow: 0 3px #666565;
-  text-decoration: none;
-  font-size: 13px;
-  border: 1px solid rgb(13, 13, 13);
-  text-align: center;
+  color: var(--palette1);
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    border-radius: 9px;
+    background: var(--white);
+    box-shadow: 0 3px var(--palette2);
+    font-size: 13px;
+    border: 1px solid var(--palette2);
+    text-align: center;
+
 }
 .project:hover{
   box-shadow: 0 3px hwb(0 72% 1%);
