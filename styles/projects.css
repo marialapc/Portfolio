@@ -33,40 +33,40 @@
   margin-top: 20px;
 }
 
-.project-list{
+.project-list {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap:23px;
+  gap: 23px;
   margin-top: 60px;
   font-family: var(--font1);
-  
 }
 
 .project{
+  text-decoration: none;
+  color: var(--palette1);
   width: 200px;
   height: 20px;
-  color: var(--palette1);
-    padding: 5px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    border-radius: 9px;
-    background: var(--white);
-    box-shadow: 0 3px var(--palette2);
-    font-size: 13px;
-    border: 1px solid var(--palette2);
-    text-align: center;
-
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  border-radius: 9px;
+  background: var(--white);
+  box-shadow: 0 3px var(--palette2);
+  font-size: 13px;
+  border: 1px solid var(--palette2);
+  text-align: center;
 }
-.project:hover{
+
+.project:hover {
   box-shadow: 0 3px hwb(0 72% 1%);
   top: 1px;
 }
 
-.project:active{
+.project:active {
   box-shadow: 0 0 var(--white);
   top: 5px;
 }
