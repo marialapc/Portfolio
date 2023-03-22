@@ -1,36 +1,55 @@
 .header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 130px;
-    gap: 10px;
-    margin-left: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 130px;
+  gap: 10px;
+  margin-left: 35px;
+}
+
+.title {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 88px;
+  color: var(--title);
+  text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
+  font-weight: bold;
+  letter-spacing: -4px;
+  border-radius: 20px;
+}
+
+.subtitle {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-size: 27px;
+  color: var(--white);
+  text-shadow: 0 2px 5px #d2bc9a, 0px -1px 0px #fff;
+}
+
+.description {
+  margin-top: 5px;
+  font-size: 16px;
+  font-family: var(--font1);
+  font-weight: 400;
+  color: var(--white);
+  width: 300px;
+}
+
+@media (min-width: 1000px) {
+  .header {
+    margin-top: 100px;
+
   }
-  
   .title {
-    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
-    text-transform: uppercase;
-    font-size: 88px;
-    color: var(--title);
-    text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
-    font-weight: bold;
-    letter-spacing: -4px;
-    border-radius: 20px;
+    font-size: 160px;
   }
-  
+
   .subtitle {
-    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
-    font-size: 27px;
-    color: var(--white);
-    text-shadow: 0 2px 5px #d2bc9a, 0px -1px 0px #fff;
+    font-size: 70px;
+    margin-left: 6px;
   }
-  
   .description {
-    margin-top: 5px;
-    font-size: 16px;
-    font-family: var(--font1);
-    font-weight: 400;
-    color: var(--white);
-    width: 300px;
+    font-size: 20px;
+    width: 600px;
+    margin-left: 7px;
   }
-  
+}
