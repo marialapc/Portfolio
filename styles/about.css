@@ -92,3 +92,14 @@
     box-shadow: 0 0 var(--white);
     top: 5px;
   }
+
+  @media (min-width: 1000px) {
+    .hero{
+      flex-direction: row-reverse;
+    }
+    .home-icon-about {
+      margin-left: 900px;
+      margin-top: 50px
+    }
+    
+  }
