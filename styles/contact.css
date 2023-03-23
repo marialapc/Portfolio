@@ -1,3 +1,4 @@
+
 .main-contact {
   display: flex;
   flex-direction: column;
@@ -62,6 +63,8 @@
     padding: 10px;
     opacity: 0.5;
 }
+
+
 
 @media (min-width: 1000px) {
   .home-icon-contact {

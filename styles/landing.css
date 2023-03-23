@@ -1,3 +1,30 @@
+/* #pointer {
+	position: absolute;
+	width: 2rem;
+	height: 2rem;
+	mix-blend-mode: difference;
+	pointer-events: none;
+	transition: top .1s ease-out, left .1s ease-out, fill .5s ease-out;
+	animation: rotate 3s ease-in infinite;
+  cursor: none;
+
+}
+
+@keyframes rotate {
+	0% {transform: rotate(0deg);}
+	50% {transform: rotate(180deg) scale(.9);}
+	100% {transform: rotate(360deg);}
+}
+
+#pointer.click {
+	fill: orangered;
+	animation: rotate 5s ease-in infinite;
+  cursor:none;
+  pointer-events: auto;
+} */
+
+
+
 .header {
   display: flex;
   flex-direction: column;
@@ -36,7 +63,7 @@
 
 @media (min-width: 1000px) {
   .header {
-    margin-top: 100px;
+    margin-top: 120px;
 
   }
   .title {
