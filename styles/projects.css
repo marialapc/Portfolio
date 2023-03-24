@@ -1,0 +1,24 @@
+.projects {
+    height: 100%;
+    background: radial-gradient(at center center, rgb(48, 39, 58), rgb(14, 9, 21), rgb(0, 0, 0));
+  }
+
+.card{
+   margin-left: 600px;
+   margin-top: 40px;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 11px rgb(240, 228, 250); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card-title{
+    font-family:fantasy;
+}
+  
