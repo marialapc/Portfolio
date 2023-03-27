@@ -4,21 +4,70 @@
   }
 
 .card{
-   margin-left: 600px;
+   margin-left: 130px;
    margin-top: 40px;
-    height: 400px;
-    width: 300px;
-    background-color: white;
+    height: 550px;
+    width: 450px;
+    background-color: rgb(255, 255, 255);
     border-radius: 15px;
-    box-shadow: 0 0 11px rgb(240, 228, 250); 
+    box-shadow: 0 0 9px rgb(240, 228, 250); 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
+.video-container{
+  width: 447px;
+  margin-top: 2px;
+  height: 400px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  
+}
+.video-rocket{
+  width: 220px;
+}
 
 .card-title{
-    font-family:fantasy;
+    font-family: star jedi;
+    color: rgb(23, 145, 169);
+    font-size: 34px;
 }
+
+.github-logo{
+  width: 27px;
+  margin-top: -11px;
+  margin-left: 240px;
+  transition: 0.5px;
+}
+
+.github-logo:hover{
+  width: 29px;
+}
+.link-logo{
+margin-top: -27px;
+width: 27px;
+margin-left: 325px;
+transition: 0.5px;
+}
+
+.link-logo:hover{
+  width: 29px;
+}
+.card-text{
+  margin-top: 3px;
+  font-weight: 100;
+  font-family: sans-serif;
+  font-size: 13px;
+  margin-left: 35px;
+  margin-right: 20px;
+  line-height: 1.5;
+  
+}
+
   
