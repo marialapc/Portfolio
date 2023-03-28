@@ -41,27 +41,6 @@
     font-size: 30px;
 }
 
-.github-logo{
-  width: 27px;
-  margin-top: -8px;
-  margin-left: 240px;
-  transition: 0.5px;
-}
-
-.github-logo:hover{
-  width: 29px;
-}
-.link-logo{
-margin-top: -27px;
-width: 27px;
-margin-left: 325px;
-transition: 0.5px;
-
-}
-
-.link-logo:hover{
-  width: 29px;
-}
 .card-text{
   margin-top: 3px;
   font-weight: 100;
@@ -69,8 +48,35 @@ transition: 0.5px;
   font-size: 13.5px;
   margin-left: 28px;
   margin-right: 20px;
-  line-height: 1.5;
-  
+  line-height: 1.5;  
+}
+
+.logos{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 270px;
+  margin-top: -7px;
+}
+
+.github-logo{
+  width: 27px;
+  transition: 0.5px;
+}
+
+.github-logo:hover{
+  width: 29px;
+}
+
+.link-logo{
+width: 27px;
+transition: 0.5px;
+}
+
+.link-logo:hover{
+  width: 29px;
 }
 
 .card-2{
@@ -119,8 +125,6 @@ transition: 0.5px;
 
 .github-logo-2{
   width: 27px;
-  margin-top: -8px;
-  margin-left: 240px;
   transition: 0.5px;
 }
 
@@ -128,9 +132,7 @@ transition: 0.5px;
   width: 29px;
 }
 .link-logo-2{
-margin-top: -27px;
 width: 27px;
-margin-left: 325px;
 transition: 0.5px;
 }
 
