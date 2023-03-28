@@ -16,7 +16,7 @@
   width: 38px;
 }
 .cards {
-  margin-top: -75px;
+  margin-top: -60px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -26,7 +26,7 @@
   margin-top: 40px;
   height: 500px;
   width: 400px;
-  background-color: rgb(255, 255, 255);
+  background-color:white;
   border-radius: 15px;
   box-shadow: 0 0 15px 3px rgb(179, 174, 185);
   display: flex;
@@ -34,6 +34,12 @@
   align-items: center;
   transition: 0.5s;
   cursor: pointer;
+}
+
+.card:hover{
+  height: 507px;
+  width: 407px;
+  box-shadow: 0 0 10px 1px  rgb(23, 145, 169) ;
 }
 
 .video-container {
@@ -61,7 +67,7 @@
   font-weight: 100;
   font-family: sans-serif;
   font-size: 13.5px;
-  margin-left: 28px;
+  margin-left: 30px;
   margin-right: 20px;
   line-height: 1.5;
 }
@@ -99,6 +105,12 @@
   align-items: center;
   transition: 0.5s;
   cursor: pointer;
+}
+
+.card-2:hover{
+  height: 503px;
+  width: 403px;
+  box-shadow: 0 0 10px 1px  rgb(23, 145, 169) ;
 }
 
 .video-container-2 {
@@ -146,4 +158,8 @@
 
 .link-logo-2:hover {
   width: 29px;
+}
+
+@media (min-width: 1000px) {
+  
 }
