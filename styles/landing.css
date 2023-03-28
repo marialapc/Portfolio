@@ -557,7 +557,7 @@ html {
     1396px 552px #fff;
 }
 
- main{
+ .main{
   height: 100vh;
   display: flex;
   flex-direction: row;
