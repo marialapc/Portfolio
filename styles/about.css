@@ -25,6 +25,7 @@ width: 38px;
   margin-top: -20px;
   width: 130px;
   border-radius: 50%;
+  border: 2px solid rgb(228, 228, 233);
 }
 
 .title-about{
@@ -42,7 +43,7 @@ margin-top: 15px;
 
   font-family: sans-serif;
   font-weight: 500;
-  color: rgb(93, 92, 92);
+  color: rgb(117, 116, 116);
   font-size: 15px;
   margin-right: 40px;
   margin-left: 40px;
