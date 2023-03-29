@@ -1,4 +1,111 @@
 .about {
-    height: 100%;
-    background: #f0f1f3ff;
-  }
+  background: #f0f1f3ff;
+  height: 100%;
+}
+
+.main-about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-icon-about {
+  width: 30px;
+  margin-right: 310px;
+  margin-top: 35px;
+  transition: 0.2s;
+}
+
+.home-icon-about:hover {
+width: 38px;
+}
+
+.img{
+  margin-top: -20px;
+  width: 130px;
+  border-radius: 50%;
+}
+
+.title-about{
+font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+color:#f0f1f3ff;
+text-shadow: 0 8px 9px #c3c1c1, 0px -2px 1px #d6d3d3;
+font-weight: bold;
+letter-spacing: -4px;
+border-radius: 20px;
+font-size: 60px;
+margin-top: 15px;
+}
+
+.text{
+
+  font-family: sans-serif;
+  font-weight: 500;
+  color: rgb(93, 92, 92);
+  font-size: 15px;
+  margin-right: 40px;
+  margin-left: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.adalab{
+  color: rgb(23, 145, 169);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.download-btn{
+  width: 200px;
+  height: 40px;
+  background-color: rgb(32, 148, 172);;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+   z-index: 1;
+   margin-top: 15px;
+}
+
+.download-btn:after {
+  border-radius: 5px;
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+  background-color: rgb(69, 67, 67);;
+  right: 0;
+  
+}
+
+.download-btn:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.download-btn:active {
+  top: 2px;
+}
+
+.download-link{
+  text-decoration: none;
+  color: white;
+  font-family: star jedi;
+  font-weight: 100;
+  letter-spacing: 0.8px;
+  -webkit-text-stroke: 0.1px black;
+}

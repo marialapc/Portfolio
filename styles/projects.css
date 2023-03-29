@@ -1,4 +1,4 @@
-.projects {
+ .projects {
   height: 100%;
   background: #f0f1f3ff;
   flex-direction: column;
@@ -162,4 +162,6 @@
 
 @media (min-width: 1000px) {
   
-}
+} 
+
+
