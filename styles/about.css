@@ -63,7 +63,7 @@ margin-top: 15px;
 .download-btn{
   width: 200px;
   height: 40px;
-  background-color: rgb(32, 148, 172);;
+  background-color: rgb(32, 148, 172);
   padding: 5px 10px;
   font-weight: bold;
   cursor: pointer;
@@ -75,7 +75,7 @@ margin-top: 15px;
   border: none;
   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
    z-index: 1;
-   margin-top: 15px;
+   margin-top: 22px;
 }
 
 .download-btn:after {
@@ -109,4 +109,33 @@ margin-top: 15px;
   font-weight: 100;
   letter-spacing: 0.8px;
   -webkit-text-stroke: 0.1px black;
+}
+
+@media (min-width: 1000px) {
+  .home-icon-about {
+    margin-left: 1600px;
+    margin-top: 50px;
+  }
+
+  .title-about {
+    font-size: 100px;
+    margin-top: -90px;
+    margin-right: 70px;
+  }
+
+  .img{
+    width: 200px;
+    margin-left: 450px;
+    margin-top: -30px;
+  }
+  .text{
+    font-size: 16px;
+    width: 600px;
+    margin-top: 50px;
+    line-height: 30px;
+  }
+
+  .download-btn{
+    margin-top: 40px;
+  }
 }
