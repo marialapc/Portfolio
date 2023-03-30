@@ -120,18 +120,18 @@ margin-top: 15px;
   .title-about {
     font-size: 100px;
     margin-top: -90px;
-    margin-right: 70px;
+    margin-right: 130px;
   }
 
   .img{
     width: 200px;
-    margin-left: 450px;
+    margin-left: 400px;
     margin-top: -30px;
   }
   .text{
     font-size: 16px;
     width: 600px;
-    margin-top: 50px;
+    margin-top: 40px;
     line-height: 30px;
   }
 

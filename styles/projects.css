@@ -1,167 +1,307 @@
- .projects {
-  height: 100%;
+
+.projects {
   background: #f0f1f3ff;
-  flex-direction: column;
-  justify-content: center;
+  height: 100%;
+}
+
+.main-projects {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 
 .home-icon-projects {
-  margin-left: 1390px;
-  margin-top: 50px;
-  width: 35px;
-  transition: 0.2s;
+width: 30px;
+margin-left: 20px;
+margin-top: 30px;
+transition: 0.2s;
+padding: 0;
 }
 
 .home-icon-projects:hover {
-  width: 38px;
+width: 38px;
 }
-.cards {
-  margin-top: -60px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-.card {
-  margin-top: 40px;
-  height: 500px;
-  width: 400px;
-  background-color:white;
-  border-radius: 15px;
-  box-shadow: 0 0 15px 3px rgb(179, 174, 185);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transition: 0.5s;
-  cursor: pointer;
-}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-.card:hover{
-  height: 507px;
-  width: 407px;
-  box-shadow: 0 0 10px 1px  rgb(23, 145, 169) ;
-}
+  .card {
+    margin-top: 20px;
+    height: 210px;
+    width: 290px;
+    background-color:white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 3px rgb(224, 223, 224);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+    
+  .card:hover{
+    height: 507px;
+    width: 407px;
+    box-shadow: 0 0 10px 1px  rgb(23, 145, 169) ;
+  }
+  
+  .video-container {
+    width: 285px;
+    margin-top: 2px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+  }
+  
+  .video-rocket {
+    width: 54px;
+  }
+  
+  .card-title {
+    font-family: star jedi;
+    color: rgb(23, 145, 169);
+    font-size: 18px;
+    margin-top: 3px;
+  }
+  
+  .card-text {
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-weight: 12;
+    font-family: sans-serif;
+    font-size: 11.3px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .github-logo {
+    width: 20px;
+    transition: 0.5px;
+    margin-left: 240px;
+    margin-top: -20px;
+  }
+  
+  .github-logo:hover {
+    width: 29px;
+  }
+  
+  
+  .card-2 {
+    margin-top: 30px;
+    height: 210px;
+    width: 290px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 0 0 15px 3px rgb(213, 211, 215);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .card-2:hover{
+    height: 503px;
+    width: 403px;
+    box-shadow: 0 0 10px 1px  rgb(23, 145, 169) ;
+  }
+  
+  .video-container-2 {
+    width: 287px;
+    margin-top: 2px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background-color: black;
+  }
+  
+  .image-rick {
+    width: 45px;
+    border-radius: 20px;
+    margin-left: 8px;
+  }
+  .image-rick-detail {
+    width: 45px;
+    border-radius: 20px;
+  }
+  
+  .card-title-2 {
+    font-family: star jedi;
+    color: rgb(23, 145, 169);
+    font-size: 18px;
+    margin-top: 3px;
+  }
+  
+  .github-logo-2 {
+    width: 20px;
+    transition: 0.5px;
+    margin-left: 240px;
+    margin-top: -24px;
+  }
+  
+  .github-logo-2:hover {
+    width: 29px;
+  }
+  .link-logo-2 {
+    width: 27px;
+    transition: 0.5px;
+  }
+  
+  .link-logo-2:hover {
+    width: 29px;
+  }
 
-.video-container {
-  width: 390px;
-  margin-top: 2px;
-  height: 350px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: black;
-}
-.video-rocket {
-  width: 190px;
-}
 
-.card-title {
-  font-family: star jedi;
-  color: rgb(23, 145, 169);
-  font-size: 30px;
-}
-
-.card-text {
-  margin-top: 3px;
-  font-weight: 100;
-  font-family: sans-serif;
-  font-size: 13.5px;
-  margin-left: 30px;
-  margin-right: 20px;
-  line-height: 1.5;
-}
-
-.github-logo {
-  width: 27px;
-  transition: 0.5px;
-  margin-left: 270px;
-  margin-top: -8px;
-}
-
-.github-logo:hover {
-  width: 29px;
-}
-
-.link-logo {
-  width: 27px;
-  transition: 0.5px;
-}
-
-.link-logo:hover {
-  width: 29px;
-}
-
-.card-2 {
-  margin-left: 130px;
-  margin-top: 40px;
-  height: 500px;
-  width: 400px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 15px;
-  box-shadow: 0 0 15px 3px rgb(179, 174, 185);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transition: 0.5s;
-  cursor: pointer;
-}
-
-.card-2:hover{
-  height: 503px;
-  width: 403px;
-  box-shadow: 0 0 10px 1px  rgb(23, 145, 169) ;
-}
-
-.video-container-2 {
-  width: 393px;
-  margin-top: 2px;
-  height: 350px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  background-color: black;
-}
-
-.image-rick {
-  width: 150px;
-  border-radius: 20px;
-  margin-left: 8px;
-}
-.image-rick-detail {
-  width: 150px;
-  border-radius: 20px;
-}
-
-.card-title-2 {
-  font-family: star jedi;
-  color: rgb(23, 145, 169);
-  font-size: 30px;
-}
-
-.github-logo-2 {
-  width: 27px;
-  transition: 0.5px;
-  margin-left: 270px;
-  margin-top: -8px;
-}
-
-.github-logo-2:hover {
-  width: 29px;
-}
-.link-logo-2 {
-  width: 27px;
-  transition: 0.5px;
-}
-
-.link-logo-2:hover {
-  width: 29px;
-}
 
 @media (min-width: 1000px) {
   
-} 
-
-
+  .home-icon-projects {
+    margin-left: 1390px;
+    margin-top: 50px;
+    width: 35px;
+    transition: 0.2s;
+  }
+  
+  .home-icon-projects:hover {
+    width: 38px;
+  }
+  .cards {
+    margin-top: -60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .card:hover{
+    height: 507px;
+    width: 407px;
+    box-shadow: 0 0 10px 1px  rgb(23, 145, 169) ;
+  }
+  
+  .video-container {
+    width: 390px;
+    margin-top: 2px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+  }
+  
+  .video-rocket {
+    width: 190px;
+  }
+  
+  .card-title {
+    font-family: star jedi;
+    color: rgb(23, 145, 169);
+    font-size: 30px;
+  }
+  
+  .card-text {
+    margin-top: 3px;
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 13.5px;
+    margin-left: 30px;
+    margin-right: 20px;
+    line-height: 1.5;
+  }
+  
+  .github-logo {
+    width: 27px;
+    transition: 0.5px;
+    margin-left: 270px;
+    margin-top: -8px;
+  }
+  
+  .github-logo:hover {
+    width: 29px;
+  }
+  
+  
+  .card-2 {
+    margin-left: 130px;
+    margin-top: 40px;
+    height: 500px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 0 0 15px 3px rgb(179, 174, 185);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .card-2:hover{
+    height: 503px;
+    width: 403px;
+    box-shadow: 0 0 10px 1px  rgb(23, 145, 169) ;
+  }
+  
+  .video-container-2 {
+    width: 393px;
+    margin-top: 2px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+  }
+  
+  .image-rick {
+    width: 150px;
+    border-radius: 20px;
+    margin-left: 8px;
+  }
+  .image-rick-detail {
+    width: 150px;
+    border-radius: 20px;
+  }
+  
+  .card-title-2 {
+    font-family: star jedi;
+    color: rgb(23, 145, 169);
+    font-size: 30px;
+  }
+  
+  .github-logo-2 {
+    width: 27px;
+    transition: 0.5px;
+    margin-left: 270px;
+    margin-top: -8px;
+  }
+  
+  .github-logo-2:hover {
+    width: 29px;
+  }
+  .link-logo-2 {
+    width: 27px;
+    transition: 0.5px;
+  }
+  
+  .link-logo-2:hover {
+    width: 29px;
+  }
+  
+  
+}
+ 
