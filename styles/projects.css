@@ -181,8 +181,15 @@ width: 38px;
     margin-top: -60px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+justify-content: center;
+align-items: center;
+  }
+
+  .card{
+    height: 500px;
+    width: 400px;
+    box-shadow: 0 0 15px 3px rgb(179, 174, 185);
+    margin-top: 40px;
   }
  
   .card:hover{
