@@ -33,7 +33,7 @@
 
 @font-face {
   font-family: "StarJedi";
-  src: url("../fonts/StarJedi\ Regular.ttf");
+  src: url("../fonts/jedi.ttf") format('truetype');
 }
 
 body {
