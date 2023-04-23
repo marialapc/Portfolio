@@ -586,7 +586,7 @@
 
 .title{
   color: yellow;
-  font-family: Star Jedi, cursive;
+  font-family: var(--font-secondary), Helvetica, sans-serif;
   font-size: 74px;
   border: 9px solid yellow;
   border-radius: 15px;
@@ -608,7 +608,7 @@
   font-size: 30px;
   margin-right: 400px;
   color: yellow;
-  font-family: Star Jedi, cursive; 
+  font-family: var(--font-secondary), Helvetica, sans-serif; 
   letter-spacing: 2px;
   transform: rotate(-5deg);
   cursor: pointer;
@@ -622,7 +622,7 @@
   font-size: 30px;
   margin-left: 370px;
   color: yellow;
-  font-family: Star Jedi, cursive;
+  font-family: var(--font-secondary), Helvetica, sans-serif;
   transform: rotate(-5deg);
   cursor: pointer;
   transition: text-shadow 0.1s ease-in-out;

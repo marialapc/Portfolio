@@ -5,7 +5,8 @@
 @import url(./footer.css);
 
 :root {
-  --font1: roboto;
+  --font-primary: Helvetica; 
+  --font-secondary: "StarJedi";
   --background: linear-gradient(to bottom, #ece4d9 0%, #e9dfd1 100%);
   --title: #f1ebe5;
   --black: #000000;
@@ -30,6 +31,14 @@
   /* box-sizing: inherit; */
 }
 
+@font-face {
+  font-family: "StarJedi";
+  src: url("../fonts/StarJedi\ Regular.ttf");
+}
+
+body {
+  font-family: var(--font-primary), Helvetica, sans-serif;
+}
 
 
 
