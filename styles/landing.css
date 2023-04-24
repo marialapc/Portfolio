@@ -586,7 +586,7 @@ html {
 .title {
   color: yellow;
   font-family: var(--font-secondary), Helvetica, sans-serif;
-  font-size: 4.6rem;
+  font-size: 4.6vw;
   border: 0.56rem solid yellow;
   border-radius: 0.93rem;
   padding: 0.68rem;
@@ -602,8 +602,8 @@ html {
 }
 
 .frontend {
-  font-size: 1.87rem;
-  margin-right: 25rem;
+  font-size: 1.87vw;
+  margin-right: 25vw;
   color: yellow;
   font-family: var(--font-secondary), Helvetica, sans-serif;
   letter-spacing: 2px;
@@ -616,8 +616,8 @@ html {
 }
 
 .developer {
-  font-size: 1.87rem;
-  margin-left: 25rem;
+  font-size: 1.87vw;
+  margin-left: 25vw;
   color: yellow;
   font-family: var(--font-secondary), Helvetica, sans-serif;
   transform: rotate(-5deg);
@@ -645,17 +645,17 @@ html {
 
 @media (max-width: 768px) {
   .title {
-    font-size: 2.5rem;
-    border: 2px solid;
-    border-radius: 7px;
+    font-size: 2rem;
+    border: 0.3rem solid;
+    border-radius: 0.5rem;
   }
 
   .frontend {
-    font-size: 1.25rem;
-    margin-right: 11.87rem;
+    font-size: 1.2rem;
+    margin-right: 9rem;
   }
   .developer {
-    font-size: 1.25rem;
-    margin-left: 11.87rem;
+    font-size: 1.2rem;
+    margin-left: 9rem;
   }
 }
