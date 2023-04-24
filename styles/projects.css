@@ -10,7 +10,7 @@
   justify-content: center;
 }
 
-.home-icon-projects {
+ .home-icon-projects {
   width: 30px;
   margin-left: 20px;
   margin-top: 30px;
@@ -36,7 +36,7 @@
   border-radius: 15px;
   box-shadow: 0 0 15px 3px rgb(224, 223, 224);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   transition: 0.5s;
   cursor: pointer;
@@ -44,28 +44,34 @@
 
 
 .video-container {
-  width: 285px;
-  margin-top: 2px;
-  height: 100px;
+  width: 150px;
+  height: 215px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: black;
 }
 
 .video-rocket {
-  width: 54px;
+  width: 110px;
 }
 
+.text-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
 .card-title {
   font-family: var(--font-secondary), Helvetica, sans-serif;
   color: rgb(23, 145, 169);
-  font-size: 18px;
-  margin-top: 3px;
+  font-size: 23px;
 }
 
 .card-text {
+  width: 120px;
   margin-right: 10px;
   margin-left: 5px;
   margin-top: 5px;
@@ -79,8 +85,8 @@
 .github-logo {
   width: 20px;
   transition: 0.5px;
-  margin-left: 240px;
-  margin-top: -20px;
+  margin-top: 20px;
+  margin-left: 70px;
 }
 
 .card-2 {
@@ -133,7 +139,7 @@
   transition: 0.5px;
   margin-left: 240px;
   margin-top: -24px;
-}
+} 
 
 
 @media (min-width: 1000px) {
@@ -160,6 +166,12 @@
     width: 400px;
     box-shadow: 0 0 15px 3px rgb(179, 174, 185);
     margin-top: 40px;
+    border-radius: 15px;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s;
+  cursor: pointer;
   }
 
   .card:hover {
@@ -184,12 +196,13 @@
   }
 
   .card-title {
-    font-family: var(--font-secondary), Helvetica, sans-serif;0
+    font-family: var(--font-secondary), Helvetica, sans-serif;
     color: rgb(23, 145, 169);
     font-size: 30px;
   }
 
   .card-text {
+    width: 350px;
     margin-top: 3px;
     font-weight: 100;
     font-family: sans-serif;
