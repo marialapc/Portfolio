@@ -184,7 +184,7 @@
   }
 
   .card-title {
-    font-family: var(--font-secondary), Helvetica, sans-serif;
+    font-family: var(--font-secondary), Helvetica, sans-serif;0
     color: rgb(23, 145, 169);
     font-size: 30px;
   }
