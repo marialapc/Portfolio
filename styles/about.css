@@ -11,18 +11,18 @@
 }
 
 .home-icon-about {
-  width: 30px;
-  margin-right: 310px;
-  margin-top: 35px;
+  width: 1.87rem;
+  margin-right: 19.3rem;
+  margin-top: 2.18rem;
   transition: 0.2s;
 }
 
 .home-icon-about:hover {
-width: 38px;
+width: 2.37rem;
 }
 
 .img{
-  margin-top: -20px;
+  margin-top: -10px;
   width: 130px;
   border-radius: 50%;
   border: 2px solid rgb(228, 228, 233);
