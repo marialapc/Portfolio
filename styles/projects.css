@@ -59,7 +59,7 @@
 }
 
 .card-title {
-  font-family: star jedi;
+  font-family: var(--font-secondary), Helvetica, sans-serif;
   color: rgb(23, 145, 169);
   font-size: 18px;
   margin-top: 3px;
@@ -122,7 +122,7 @@
 }
 
 .card-title-2 {
-  font-family: star jedi;
+  font-family: var(--font-secondary), Helvetica, sans-serif;
   color: rgb(23, 145, 169);
   font-size: 18px;
   margin-top: 3px;
@@ -184,7 +184,7 @@
   }
 
   .card-title {
-    font-family: star jedi;
+    font-family: var(--font-secondary), Helvetica, sans-serif;
     color: rgb(23, 145, 169);
     font-size: 30px;
   }
