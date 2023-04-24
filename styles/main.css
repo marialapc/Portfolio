@@ -5,19 +5,14 @@
 @import url(./footer.css);
 
 :root {
-  --font-primary: Helvetica; 
+  --font-primary: Helvetica;
   --font-secondary: "StarJedi";
-  --font-tertiary:"ArialRounded";
+  --font-tertiary: "ArialRounded";
   --background: linear-gradient(to bottom, #ece4d9 0%, #e9dfd1 100%);
   --title: #f1ebe5;
   --black: #000000;
-  --palette0: rgb(40, 40, 40);;
-  --palette1: #7a695d;
-  --palette2: #ae9c8f;
-  --palette3: #e5d2c4;
-  --palette4: #f2e8e1;
-  --white: #ffffff; 
-  --palette5: hwb(0 72% 1%);
+  --palette0: rgb(40, 40, 40);
+  --white: #ffffff;
 }
 
 * {
@@ -25,23 +20,15 @@
   padding: 0;
 }
 
-
-*::before,
-*::after {
-}
-
 @font-face {
   font-family: "StarJedi";
-  src: url("../fonts/jedi.ttf") format('truetype');
+  src: url("../fonts/jedi.ttf") format("truetype");
 }
 @font-face {
   font-family: "ArialRounded";
-  src: url("../fonts/arialrounded.ttf") format('truetype');
+  src: url("../fonts/arialrounded.ttf") format("truetype");
 }
 body {
   font-family: var(--font-primary), Helvetica, sans-serif;
+  font-size: 16px;
 }
-
-
-
-

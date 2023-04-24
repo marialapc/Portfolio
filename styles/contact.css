@@ -1,10 +1,8 @@
-
 .contact {
     background: #f0f1f3ff;
     height: 100%;
   }
-
-  .main-contact {
+ .main-contact {
   display: flex;
   flex-direction: column;
   align-items: center;
