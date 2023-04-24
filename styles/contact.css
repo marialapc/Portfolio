@@ -24,7 +24,7 @@ width: 38px;
 }
 
 .title-contact {
-  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-family:  var(--font-tertiary), Helvetica, sans-serif;
   color:#f0f1f3ff;
   text-shadow: 0 8px 9px #c3c1c1, 0px -2px 1px #d6d3d3;
   font-weight: bold;

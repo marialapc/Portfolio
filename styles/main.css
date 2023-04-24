@@ -7,6 +7,7 @@
 :root {
   --font-primary: Helvetica; 
   --font-secondary: "StarJedi";
+  --font-tertiary:"ArialRounded";
   --background: linear-gradient(to bottom, #ece4d9 0%, #e9dfd1 100%);
   --title: #f1ebe5;
   --black: #000000;
@@ -35,7 +36,10 @@
   font-family: "StarJedi";
   src: url("../fonts/jedi.ttf") format('truetype');
 }
-
+@font-face {
+  font-family: "ArialRounded";
+  src: url("../fonts/arialrounded.ttf") format('truetype');
+}
 body {
   font-family: var(--font-primary), Helvetica, sans-serif;
 }
