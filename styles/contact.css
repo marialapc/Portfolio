@@ -149,6 +149,7 @@ width: 38px;
   transition: left .6s;
   left:0%;
   z-index: 10;
+  animation: move-eyes 10s linear infinite;
 }
 
 .eyes-right{
@@ -207,7 +208,7 @@ top: 12px; left:12%;
   overflow: hidden;
   position: relative;
   width: var(--size);
-  animation: roll 5.2s linear infinite;
+  animation: roll 10s linear infinite;
 }
 .lines{
   border: 2px solid rgb(167,145,108);
@@ -289,16 +290,31 @@ top: 12px; left:12%;
 }
 
 
-
 @keyframes roll {
-  from {
+  0% {
     transform: rotate(0);
   }
-  to{
+  50%{
     transform: rotate(360deg);
+  }
+  100%{
+    transform: rotate(0);
   }
 }
 
+@keyframes move-eyes{
+  0%{
+    transform: translate(0px);
+  }
+  50%{
+    transform: translate(30px);
+  }
+  100%{
+    transform: translate(0px);
+  }
+}
+
+/* https://www.youtube.com/watch?v=jyW7fzofUco */
 
 
 @media (min-width: 1000px) {
