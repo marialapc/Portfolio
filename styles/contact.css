@@ -313,10 +313,16 @@ top: 12px; left:12%;
     height: 50px;
   }
   .media-icon-mail{
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     border-radius: 4px;
   }
+  .media-icon-mail:hover{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    opacity: 0.5;
+}
 }
 
 

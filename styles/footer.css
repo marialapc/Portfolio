@@ -17,7 +17,7 @@ footer {
   
   .navbar li a {
     min-width: 60px;
-    height: 20px;
+    height: 30px;
     color: var(--palette0);
     padding: 5px 10px;
     font-weight: 700;
