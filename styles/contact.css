@@ -207,6 +207,7 @@ top: 12px; left:12%;
   overflow: hidden;
   position: relative;
   width: var(--size);
+  animation: roll 5.2s linear infinite;
 }
 .lines{
   border: 2px solid rgb(167,145,108);
@@ -288,6 +289,15 @@ top: 12px; left:12%;
 }
 
 
+
+@keyframes roll {
+  from {
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
 
 
 
