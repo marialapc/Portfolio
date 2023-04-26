@@ -304,8 +304,14 @@
   0% {
     transform: translate(0px);
   }
+  10% {
+    transform: translate(30px);
+  }
   50% {
     transform: translate(30px);
+  }
+  60% {
+    transform: translate(0px);
   }
   100% {
     transform: translate(0px);
