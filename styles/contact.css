@@ -287,7 +287,7 @@
   left: 5px;
   bottom: -8px;
 }
-
+/* 
 @keyframes roll {
   0% {
     transform: rotate(0);
@@ -328,7 +328,7 @@
   100% {
     transform: translate(0px);
   }
-}
+} */
 
 /* https://www.youtube.com/watch?v=jyW7fzofUco */
 
@@ -364,4 +364,5 @@
     padding: 10px;
     opacity: 0.5;
   }
+
 }

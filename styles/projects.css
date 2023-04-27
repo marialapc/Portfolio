@@ -98,6 +98,13 @@
 display:none;
 }
 
+.sable {
+width: 50px;
+  position: absolute;
+
+
+}
+
 @media (min-width: 1000px) {
   .home-icon-projects {
     margin-left: 1390px;
