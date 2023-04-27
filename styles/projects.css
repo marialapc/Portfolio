@@ -1,6 +1,3 @@
-body{
-  cursor: url(../images/sable.png), pointer;
-}
 .projects {
   background: #f0f1f3ff;
   height: 100%;
@@ -18,7 +15,6 @@ body{
   margin-left: 20px;
   margin-top: 30px;
   transition: 0.2s;
-  padding: 0;
 }
 
 .home-icon-projects:hover {
@@ -42,7 +38,7 @@ body{
   flex-direction: row;
   align-items: center;
   transition: 0.5s;
-  cursor: pointer;
+  cursor: url(../images/sable.png), pointer;
 }
 
 .video-container {
@@ -55,6 +51,7 @@ body{
   justify-content: center;
   background-color: black;
   margin-left: 2px;
+  cursor: url(../images/sable.png), pointer;
 }
 
 .text-container {
@@ -138,7 +135,6 @@ width: 50px;
     flex-direction: column;
     align-items: center;
     transition: 0.5s;
-    cursor: pointer;
   }
 
   .card:hover {

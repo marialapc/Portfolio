@@ -2,6 +2,7 @@ footer {
     position: fixed;
     bottom: 0;
     padding-bottom: 70px;
+    cursor: auto;
   }
   
   .navbar {
@@ -13,7 +14,6 @@ footer {
     font-family: var(--font1);
     list-style: none;
     gap: 28px;
-    cursor: auto;
   }
   
   .navbar li a {
@@ -22,7 +22,6 @@ footer {
     color: var(--palette0);
     padding: 5px 10px;
     font-weight: 700;
-    cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;

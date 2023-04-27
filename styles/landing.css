@@ -592,7 +592,6 @@ html {
   padding: 0.68rem;
   padding-left: 1.25rem;
   transform: rotate(-5deg);
-  cursor: pointer;
   transition: text-shadow 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out;
 }
@@ -608,7 +607,6 @@ html {
   font-family: var(--font-secondary), Helvetica, sans-serif;
   letter-spacing: 2px;
   transform: rotate(-5deg);
-  cursor: pointer;
   transition: text-shadow 0.1s ease-in-out;
 }
 .frontend:hover {
@@ -621,7 +619,6 @@ html {
   color: yellow;
   font-family: var(--font-secondary), Helvetica, sans-serif;
   transform: rotate(-5deg);
-  cursor: pointer;
   transition: text-shadow 0.1s ease-in-out;
 }
 .developer:hover {

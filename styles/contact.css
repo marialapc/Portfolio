@@ -1,6 +1,7 @@
 .contact {
   background: #f0f1f3ff;
   height: 100%;
+  cursor: auto;
 }
 .main-contact {
   display: flex;
