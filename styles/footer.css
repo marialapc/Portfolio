@@ -1,47 +1,48 @@
 footer {
-    position: fixed;
-    bottom: 0;
-    padding-bottom: 70px;
-    cursor: auto;
-  }
-  
-  .navbar {
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-family: var(--font1);
-    list-style: none;
-    gap: 28px;
-  }
-  
-  .navbar li a {
-    min-width: 60px;
-    height: 30px;
-    color: var(--palette0);
-    padding: 5px 10px;
-    font-weight: 700;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    outline: none;
-    border-radius: 3px;
-    border: none;
-    background: var(--white);
-    box-shadow: 0 3px #666565;
-    text-decoration: none;
-    font-size: 13px;
-    border: 1px solid rgb(13, 13, 13);
-    text-align: center;
-  }
-  .navbar li a:hover {
-    box-shadow: 0 3px 10px rgb(149, 96, 255), 0 3px 50px rgba(183, 131, 255, 0.525), 0 3px 10px rgba(129, 50, 255, 0.258), 0 3px 15px rgba(255, 255, 255, 0.099), 0 3px 20px rgba(255, 255, 255, 0.066);
-    top: 1px;
-  }
-  
-  .navbar li a:active {
-    box-shadow: 0 0 var(--white);
-    top: 5px;
-  }
-  
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 70px;
+  cursor: auto;
+}
+
+.navbar {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font1);
+  list-style: none;
+  gap: 28px;
+}
+
+.navbar li a {
+  min-width: 60px;
+  height: 30px;
+  color: var(--palette0);
+  padding: 5px 10px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 3px;
+  border: none;
+  background: var(--white);
+  box-shadow: 0 3px #666565;
+  text-decoration: none;
+  font-size: 13px;
+  border: 1px solid rgb(13, 13, 13);
+  text-align: center;
+}
+.navbar li a:hover {
+  box-shadow: 0 3px 10px rgb(149, 96, 255),
+    0 3px 50px rgba(183, 131, 255, 0.525), 0 3px 10px rgba(129, 50, 255, 0.258),
+    0 3px 15px rgba(255, 255, 255, 0.099), 0 3px 20px rgba(255, 255, 255, 0.066);
+  top: 1px;
+}
+
+.navbar li a:active {
+  box-shadow: 0 0 var(--white);
+  top: 5px;
+}

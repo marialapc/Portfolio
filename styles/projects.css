@@ -95,14 +95,12 @@
 }
 
 .image-rick-detail {
-display:none;
+  display: none;
 }
 
 .sable {
-width: 50px;
+  width: 50px;
   position: absolute;
-
-
 }
 
 @media (min-width: 1000px) {
