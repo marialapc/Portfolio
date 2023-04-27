@@ -13,6 +13,7 @@ footer {
     font-family: var(--font1);
     list-style: none;
     gap: 28px;
+    cursor: auto;
   }
   
   .navbar li a {

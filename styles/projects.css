@@ -1,3 +1,6 @@
+body{
+  cursor: url(../images/sable.png), pointer;
+}
 .projects {
   background: #f0f1f3ff;
   height: 100%;
