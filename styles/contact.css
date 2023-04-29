@@ -289,15 +289,25 @@
   bottom: -8px;
 }
 
-.rotate{
-  animation: roll 10s linear infinite;
+.rotate-right{
+  animation: roll-right 10s linear infinite;
 }
 
-@keyframes roll {
+.rotate-left{
+  animation: roll-left 10s linear infinite;
+}
+
+@keyframes roll-right {
   0% {
     transform: rotate(0);
   }
-  50% {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes roll-left {
+  0% {
     transform: rotate(360deg);
   }
   100% {
