@@ -22,6 +22,26 @@
   width: 2.37rem;
 }
 
+.grogu{
+  width: 70px;
+   position:fixed;
+   margin-bottom: 50px;
+   margin-left: 595px;
+   animation: levitate 2.3s infinite ease-in-out;
+}
+
+@keyframes levitate {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .img {
   margin-top: -10px;
   width: 130px;
@@ -76,7 +96,7 @@
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   z-index: 1;
-  margin-top: 22px;
+
 }
 
 .download-btn:after {
@@ -111,6 +131,8 @@
   letter-spacing: 0.8px;
   -webkit-text-stroke: 0.1px black;
 }
+
+
 
 @media (min-width: 1000px) {
   .home-icon-about {
