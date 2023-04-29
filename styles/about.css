@@ -48,7 +48,7 @@
   margin-top: -10px;
   width: 130px;
   border-radius: 50%;
-  border: 2px solid rgb(228, 228, 233);
+  border: px solid rgb(240, 240, 255);
 }
 
 .title-about {
@@ -139,7 +139,8 @@
 
 @media (min-width: 1000px) {
   .home-icon-about {
-    margin-left: 1600px;
+    width: 35px;
+    margin-left: 1300px;
     margin-top: 50px;
     margin-right: 0;
   }
@@ -147,13 +148,13 @@
   .title-about {
     font-size: 100px;
     margin-top: -90px;
-    margin-right: 130px;
+    margin-right: 160px;
   }
 
   .img {
     width: 200px;
-    margin-left: 400px;
-    margin-top: -45px;
+    margin-left: 370px;
+    margin-top: -35px;
   }
   .text {
     font-size: 16px;
@@ -170,5 +171,5 @@
     width: 70px;
     position:fixed;
     margin-bottom: 50px;
-    margin-left: 595px;}
+    margin-left: 575px;}
 }

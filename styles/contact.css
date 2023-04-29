@@ -19,7 +19,7 @@
 }
 
 .home-icon-contact:hover {
-  width: 38px;
+  width: 2.37rem;
 }
 
 .title-contact {
@@ -349,6 +349,7 @@
 
 @media (min-width: 1000px) {
   .home-icon-contact {
+    width: 35px;
     margin-left: 1600px;
     margin-top: 50px;
   }
