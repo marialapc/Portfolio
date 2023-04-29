@@ -203,14 +203,14 @@
   top: 2px;
   left: 2px;
 }
-.body {
+.droid-body {
   background: #ded7ce;
   border-radius: 50%;
   height: var(--size);
   overflow: hidden;
   position: relative;
   width: var(--size);
-  animation: roll 10s linear infinite;
+  /* animation: roll 10s linear infinite; */
 }
 .lines {
   border: 2px solid rgb(167, 145, 108);
@@ -288,7 +288,11 @@
   left: 5px;
   bottom: -8px;
 }
-/* 
+
+.rotate{
+  animation: roll 10s linear infinite;
+}
+
 @keyframes roll {
   0% {
     transform: rotate(0);
@@ -301,7 +305,7 @@
   }
 }
 
-@keyframes move-eyes {
+/* @keyframes move-eyes {
   0% {
     transform: translate(0px);
   }
@@ -329,9 +333,10 @@
   100% {
     transform: translate(0px);
   }
-} */
+} */ 
 
 /* https://www.youtube.com/watch?v=jyW7fzofUco */
+
 
 @media (min-width: 1000px) {
   .home-icon-contact {
