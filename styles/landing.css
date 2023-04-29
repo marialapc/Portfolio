@@ -653,11 +653,11 @@ html {
   .frontend {
     font-size: 1.2rem;
     margin-right: 9rem;
-    text-shadow: 0 0 3px rgba(255, 255, 0, 0.8);
+    text-shadow: 0 0 2px rgba(255, 255, 0, 0.8);
   }
   .developer {
     font-size: 1.2rem;
     margin-left: 9rem;
-    text-shadow: 0 0 3px rgba(255, 255, 0, 0.8);
+    text-shadow: 0 0 2px rgba(255, 255, 0, 0.8);
   }
 }
