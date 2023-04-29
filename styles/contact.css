@@ -289,11 +289,11 @@
   bottom: -8px;
 }
 
-.rotate-right{
+.rotate-right {
   animation: roll-right 6s linear infinite;
 }
 
-.rotate-left{
+.rotate-left {
   animation: roll-left 6s linear infinite;
 }
 
@@ -343,10 +343,9 @@
   100% {
     transform: translate(0px);
   }
-} */ 
+} */
 
 /* https://www.youtube.com/watch?v=jyW7fzofUco */
-
 
 @media (min-width: 1000px) {
   .home-icon-contact {
