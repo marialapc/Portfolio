@@ -23,10 +23,11 @@
 }
 
 .grogu{
-  width: 70px;
+  width: 50px;
    position:fixed;
-   margin-bottom: 50px;
-   margin-left: 595px;
+   margin-bottom: 140px;
+   margin-left: 100px;
+
    animation: levitate 2.3s infinite ease-in-out;
 }
 
@@ -43,6 +44,7 @@
 }
 
 .img {
+  margin-right: 10px;
   margin-top: -10px;
   width: 130px;
   border-radius: 50%;
@@ -138,6 +140,7 @@
   .home-icon-about {
     margin-left: 1600px;
     margin-top: 50px;
+    margin-right: 0;
   }
 
   .title-about {
@@ -161,4 +164,10 @@
   .download-btn {
     margin-top: 40px;
   }
+
+  .grogu{  
+    width: 70px;
+    position:fixed;
+    margin-bottom: 50px;
+    margin-left: 595px;}
 }
