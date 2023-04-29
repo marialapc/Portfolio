@@ -32,5 +32,4 @@
 body {
   font-family: var(--font-primary), Helvetica, sans-serif;
   font-size: 16px;
-  cursor: url(../images/sable.png), pointer;
 }

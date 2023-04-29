@@ -573,6 +573,7 @@ html {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  cursor: url(../images/sable.png), pointer;
 }
 
 .hero {

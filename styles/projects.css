@@ -25,6 +25,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  cursor: url(../images/sable.png), pointer;
 }
 
 .card {
@@ -38,7 +39,6 @@
   flex-direction: row;
   align-items: center;
   transition: 0.5s;
-  cursor: url(../images/sable.png), pointer;
 }
 
 .video-container {
