@@ -290,11 +290,11 @@
 }
 
 .rotate-right{
-  animation: roll-right 10s linear infinite;
+  animation: roll-right 6s linear infinite;
 }
 
 .rotate-left{
-  animation: roll-left 10s linear infinite;
+  animation: roll-left 6s linear infinite;
 }
 
 @keyframes roll-right {
