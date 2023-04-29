@@ -1,6 +1,7 @@
 footer {
   position: fixed;
   bottom: 0;
+  padding-top: 20px;
   padding-bottom: 70px;
   cursor: auto;
 }
