@@ -104,10 +104,10 @@
 
 @media (min-width: 1000px) {
   .home-icon-projects {
-    margin-left: 86.8rem;
+   width: 2.187rem;
+    margin-left: 81.25rem;
     margin-top: 3.125rem;
-    width: 2.18rem;
-    transition: 0.2s;
+    margin-right: 0;
   }
 
   .home-icon-projects:hover {
