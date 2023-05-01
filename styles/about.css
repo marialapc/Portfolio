@@ -22,13 +22,13 @@
   width: 2.37rem;
 }
 
-.grogu{
+.grogu {
   width: 3.125rem;
-   position:fixed;
-   margin-bottom: 8.75rem;
-   margin-left: 6.25rem;
+  position: fixed;
+  margin-bottom: 8.75rem;
+  margin-left: 6.25rem;
 
-   animation: levitate 2.3s infinite ease-in-out;
+  animation: levitate 2.3s infinite ease-in-out;
 }
 
 @keyframes levitate {
@@ -99,7 +99,6 @@
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   z-index: 1;
-
 }
 
 .download-btn:after {
@@ -135,8 +134,6 @@
   -webkit-text-stroke: 0.1px black;
 }
 
-
-
 @media (min-width: 1000px) {
   .home-icon-about {
     width: 2.187rem;
@@ -167,9 +164,10 @@
     margin-top: 2.5rem;
   }
 
-  .grogu{  
+  .grogu {
     width: 4.37rem;
-    position:fixed;
+    position: fixed;
     margin-bottom: 3.125rem;
-    margin-left: 35.93rem;}
+    margin-left: 35.93rem;
+  }
 }
