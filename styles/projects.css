@@ -70,18 +70,19 @@
 }
 
 .card-text {
-  width: 170px;
-  margin-top: 15px;
+  width: 10.62rem;
+  margin-top: 0.93rem;
   font-family: sans-serif;
-  font-size: 11.7px;
+  font-size: 0.73rem;
   line-height: 1.5;
   text-align: center;
 }
 
 .github-logo {
-  width: 10.62rem;
+  width: 1.25rem;
+  transition: 0.5px;
   margin-left: 7.5rem;
-  margin-top: 0.62rem;
+  margin-top: 0.625rem;
 }
 
 .video-rocket {
@@ -90,7 +91,7 @@
 
 .image-rick {
   width: 6.25rem;
-  border-radius: 5px;
+  border-radius: 0.31rem;
 }
 
 .image-rick-detail {
@@ -104,8 +105,8 @@
 
 @media (min-width: 1000px) {
   .home-icon-projects {
-   width: 2.187rem;
-    margin-left: 81.25rem;
+    width: 2.187rem;
+    margin-left: 87.5rem;
     margin-top: 3.125rem;
     margin-right: 0;
   }
@@ -127,7 +128,7 @@
     width: 25rem;
     box-shadow: 0 0 15px 3px rgb(179, 174, 185);
     margin-top: 2.5rem;
-    border-radius: 15px;
+    border-radius: 0.93rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -144,12 +145,12 @@
     width: 24.37rem;
     margin-top: 0.125rem;
     height: 21.87rem;
-    border-radius: 0.62rem;
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: black;
-    gap: 1.25rem;
+    gap: 0.625rem;
   }
 
   .video-rocket {
@@ -163,8 +164,6 @@
     width: 25rem;
   }
   .card-title {
-    font-family: var(--font-secondary), Helvetica, sans-serif;
-    color: rgb(23, 145, 169);
     font-size: 1.87rem;
   }
 
@@ -175,14 +174,14 @@
     font-family: sans-serif;
     font-size: 0.84rem;
     margin-left: 1.87rem;
-    margin-right: 1.25rem;
+    margin-right: 1,25rem;
     line-height: 1.5;
   }
 
   .github-logo {
     width: 1.68rem;
     transition: 0.5px;
-    margin-left: 16.87rem;
+    margin-left: 16.8rem;
     margin-top: -0.5rem;
   }
 
@@ -192,12 +191,13 @@
 
   .image-rick {
     width: 9.37rem;
-    border-radius: 1.35rem;
+    border-radius: 1.25rem;
     margin-left: 0.5rem;
   }
   .image-rick-detail {
     width: 9.37rem;
-    border-radius: 1.35rem;
+    border-radius: 1.25rem;
     display: block;
   }
+
 }
