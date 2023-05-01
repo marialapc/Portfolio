@@ -23,10 +23,10 @@
 }
 
 .grogu{
-  width: 50px;
+  width: 3.125rem;
    position:fixed;
-   margin-bottom: 140px;
-   margin-left: 100px;
+   margin-bottom: 8.75rem;
+   margin-left: 6.25rem;
 
    animation: levitate 2.3s infinite ease-in-out;
 }
@@ -36,7 +36,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-7px);
+    transform: translateY(-0.437rem);
   }
   100% {
     transform: translateY(0);
@@ -44,11 +44,11 @@
 }
 
 .img {
-  margin-right: 10px;
-  margin-top: -10px;
-  width: 130px;
+  margin-right: 0.625rem;
+  margin-top: -0.625rem;
+  width: 8.125rem;
   border-radius: 50%;
-  border: px solid rgb(240, 240, 255);
+  border: 2px solid rgb(240, 240, 255);
 }
 
 .title-about {
@@ -58,22 +58,22 @@
   font-weight: bold;
   letter-spacing: -1px;
   border-radius: 20px;
-  font-size: 60px;
-  margin-top: 15px;
+  font-size: 3.75rem;
+  margin-top: 0.93rem;
 }
 
 .text {
   font-family: sans-serif;
   font-weight: 500;
   color: rgb(117, 116, 116);
-  font-size: 15px;
-  margin-right: 40px;
-  margin-left: 40px;
+  font-size: 0.93rem;
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin-top: 20px;
+  gap: 0.625rem;
+  margin-top: 1.25rem;
 }
 
 .adalab {
@@ -83,11 +83,11 @@
 }
 
 .download-btn {
-  width: 200px;
-  height: 40px;
+  width: 12.5rem;
+  height: 2.5rem;
   background-color: rgb(32, 148, 172);
-  padding: 5px 10px;
-  margin-top: 32px;
+  padding: 0.31rem 0.625rem;
+  margin-top: 2rem;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -123,7 +123,7 @@
 }
 
 .download-btn:active {
-  top: 2px;
+  top: 0.125rem;
 }
 
 .download-link {
@@ -139,37 +139,37 @@
 
 @media (min-width: 1000px) {
   .home-icon-about {
-    width: 35px;
-    margin-left: 1300px;
-    margin-top: 50px;
+    width: 2.187rem;
+    margin-left: 81.25rem;
+    margin-top: 3.125rem;
     margin-right: 0;
   }
 
   .title-about {
-    font-size: 100px;
-    margin-top: -90px;
-    margin-right: 160px;
+    font-size: 6.25rem;
+    margin-top: -5.625rem;
+    margin-right: 10rem;
   }
 
   .img {
-    width: 200px;
-    margin-left: 370px;
-    margin-top: -35px;
+    width: 12.5rem;
+    margin-left: 21.25rem;
+    margin-top: -2.18rem;
   }
   .text {
-    font-size: 16px;
-    width: 600px;
-    margin-top: 40px;
-    line-height: 30px;
+    font-size: 1rem;
+    width: 37.5rem;
+    margin-top: 2.5rem;
+    line-height: 1.87rem;
   }
 
   .download-btn {
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
 
   .grogu{  
-    width: 70px;
+    width: 4.37rem;
     position:fixed;
-    margin-bottom: 50px;
-    margin-left: 575px;}
+    margin-bottom: 3.125rem;
+    margin-left: 35.93rem;}
 }

@@ -606,7 +606,7 @@ html {
   margin-right: 25vw;
   color: yellow;
   font-family: var(--font-secondary), Helvetica, sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
   transform: rotate(-5deg);
   transition: text-shadow 0.1s ease-in-out;
 }
