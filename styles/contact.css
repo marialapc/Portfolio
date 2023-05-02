@@ -3,6 +3,7 @@
   height: 100%;
   cursor: auto;
 }
+
 .main-contact {
   display: flex;
   flex-direction: column;
@@ -12,8 +13,6 @@
 
 .home-icon-contact {
   width: 1.87rem;
-  margin-right: 19.3rem;
-  margin-top: 2.18rem;
   transition: 0.2s;
 }
 
@@ -41,16 +40,19 @@
   gap: 1.43rem;
   margin-top: 3.75rem;
 }
+
 .media-icon {
   width: 2.18rem;
   height: 2.18rem;
   transition: 0.2s;
 }
+
 .media-icon:hover {
   width: 2.5rem;
   height: 2.5rem;
   opacity: 0.5;
 }
+
 .media-icon-mail {
   width: 2.25rem;
   height: 2.25rem;
@@ -66,8 +68,8 @@
   padding: 0.625rem;
   opacity: 0.5;
 }
-/* BB8 */
 
+/* BB8 */
 .droid {
   --size: 140px;
   position: absolute;
@@ -78,6 +80,7 @@
   z-index: 4;
   animation: move 10s linear infinite;
 }
+
 .radios {
   position: absolute;
   transition: left 0.6s;
@@ -93,6 +96,7 @@
   position: absolute;
   width: 2px;
 }
+
 .radio-short {
   height: 20px;
   top: -60px;
@@ -106,6 +110,7 @@
   top: -78px;
   left: 56px;
 }
+
 .head {
   background-color: #dad5cd;
   border-radius: 90px 90px 14px 14px;
@@ -120,6 +125,7 @@
   top: -46px;
   left: 50%;
 }
+
 .band {
   position: absolute;
   width: 100%;
@@ -204,20 +210,20 @@
   left: 2px;
 }
 .droid-body {
-  background: #ded7ce;
-  border-radius: 50%;
-  height: var(--size);
-  overflow: hidden;
   position: relative;
   width: var(--size);
-  /* animation: roll 10s linear infinite; */
+  height: var(--size);
+  overflow: hidden;
+  background: #ded7ce;
+  border-radius: 50%;
 }
+
 .lines {
+  position: absolute;
   border: 2px solid rgb(167, 145, 108);
   border-radius: 50%;
   height: 400px;
   width: 400px;
-  position: absolute;
   opacity: 0.6;
 }
 
@@ -225,6 +231,7 @@
   top: -10px;
   left: -250px;
 }
+
 .circle {
   background: rgb(180, 102, 54);
   border-radius: 50%;
@@ -233,6 +240,7 @@
   width: 70px;
   position: absolute;
 }
+
 .circle::after {
   background-color: #d1c3ad;
   border-radius: 50%;
@@ -315,43 +323,9 @@
   }
 }
 
-/* @keyframes move-eyes {
-  0% {
-    transform: translate(0px);
-  }
-  10% {
-    transform: translate(30px);
-  }
-  50% {
-    transform: translate(30px);
-  }
-  60% {
-    transform: translate(0px);
-  }
-  100% {
-    transform: translate(0px);
-  }
-}
-
-@keyframes move {
-  0% {
-    transform: translate(0px);
-  }
-  50% {
-    transform: translate(500px);
-  }
-  100% {
-    transform: translate(0px);
-  }
-} */
-
-
 @media (min-width: 1000px) {
   .home-icon-contact {
     width: 2.187rem;
-    margin-left: 81.25rem;
-    margin-top: 3.125rem;
-    margin-right: 0;
   }
 
   .title-contact {
@@ -369,11 +343,13 @@
     width: 3.125rem;
     height: 3.125rem;
   }
+
   .media-icon-mail {
     width: 3.125rem;
     height: 3.125rem;
     border-radius: 0.25rem;
   }
+
   .media-icon-mail:hover {
     width: 2.5rem;
     height: 2.5rem;

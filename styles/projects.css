@@ -1,6 +1,6 @@
 .projects {
-  background: #f0f1f3ff;
   height: 100%;
+  background-color: #f0f1f3ff;
 }
 
 .main-projects {
@@ -12,49 +12,54 @@
 
 .home-icon-projects {
   width: 1.87rem;
-  margin-left: 1.7rem ;
-  margin-top: 2.18rem;
   transition: 0.2s;
 }
 
 .home-icon-projects:hover {
   width: 2.37rem;
 }
+
 .cards {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  gap: 1rem;
   cursor: url(../images/sable.png), pointer;
 }
 
 .card {
-  margin-top: 1.25rem;
-  height: 14.37rem;
-  width: 21.25rem;
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: 0 0 15px 3px rgb(224, 223, 224);
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 1rem;
+  width: 21.25rem;
+  height: 14.37rem;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0 0 15px 3px rgb(224, 223, 224);
   transition: 0.5s;
 }
 
+.card-link {
+  width: 100%;
+  height: 100%;
+}
+
 .video-container {
-  width: 9.37rem;
-  height: 14.06rem;
-  border-radius: 0.62rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-height: unset;
   background-color: black;
-  margin-left: 0.125rem;
+  border-radius: 6px;
   cursor: url(../images/sable.png), pointer;
 }
 
 .text-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,10 +67,10 @@
 }
 
 .card-title {
+  margin-top: 0.31rem;
   font-family: var(--font-secondary), Helvetica, sans-serif;
   color: rgb(23, 145, 169);
   font-size: 1.43rem;
-  margin-top: 0.31rem;
   text-align: center;
 }
 
@@ -78,11 +83,14 @@
   text-align: center;
 }
 
+.github {
+  position: absolute;
+  bottom: -1rem;
+  right: 1rem;
+}
+
 .github-logo {
   width: 1.25rem;
-  transition: 0.5px;
-  margin-left: 7.5rem;
-  margin-top: 0.625rem;
 }
 
 .video-rocket {
@@ -106,46 +114,40 @@
 @media (min-width: 1000px) {
   .home-icon-projects {
     width: 2.187rem;
-    margin-left: 87.5rem;
-    margin-top: 3.125rem;
-    margin-right: 0;
   }
 
   .home-icon-projects:hover {
     width: 2.37rem;
   }
+
   .cards {
-    margin-top: -3.75rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 5.62rem;
+    height: 100%;
   }
 
   .card {
-    height: 31.25rem;
+    height: 33.25rem;
     width: 25rem;
     box-shadow: 0 0 15px 3px rgb(179, 174, 185);
-    margin-top: 2.5rem;
-    border-radius: 0.93rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
     transition: 0.5s;
+    border-radius: 8px;
   }
 
   .card:hover {
-    height: 31.68rem;
-    width: 25.43rem;
     box-shadow: 0 0 10px 1px rgb(23, 145, 169);
   }
 
   .video-container {
-    width: 24.37rem;
-    margin-top: 0.125rem;
-    height: 21.87rem;
-    border-radius: 10px;
+    width: 100%;
+    min-height: 22rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -174,15 +176,12 @@
     font-family: sans-serif;
     font-size: 0.84rem;
     margin-left: 1.87rem;
-    margin-right: 1,25rem;
+    margin-right: 1.25rem;
     line-height: 1.5;
   }
 
   .github-logo {
     width: 1.68rem;
-    transition: 0.5px;
-    margin-left: 16.8rem;
-    margin-top: -0.5rem;
   }
 
   .github-logo:hover {
@@ -194,10 +193,10 @@
     border-radius: 1.25rem;
     margin-left: 0.5rem;
   }
+
   .image-rick-detail {
     width: 9.37rem;
     border-radius: 1.25rem;
     display: block;
   }
-
 }

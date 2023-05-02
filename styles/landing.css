@@ -587,7 +587,7 @@ html {
 .title {
   color: yellow;
   font-family: var(--font-secondary), Helvetica, sans-serif;
-  font-size: 4.6vw;
+  font-size: clamp(1.4rem, 10vw, 3rem);
   border: 0.56rem solid yellow;
   border-radius: 0.93rem;
   padding: 0.68rem;
@@ -596,30 +596,32 @@ html {
   transition: text-shadow 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out;
 }
+
 .title:hover {
   text-shadow: 0 0 5px rgba(255, 255, 0, 0.8);
   box-shadow: 0 0 40px 5px rgba(255, 255, 0, 0.5);
 }
 
 .frontend {
-  font-size: 1.87vw;
-  margin-right: 25vw;
-  color: yellow;
-  font-family: var(--font-secondary), Helvetica, sans-serif;
   letter-spacing: 0.125rem;
-  transform: rotate(-5deg);
-  transition: text-shadow 0.1s ease-in-out;
 }
+
 .frontend:hover {
   text-shadow: 0 0 20px rgba(255, 255, 0, 0.8);
 }
 
+.frontend,
 .developer {
-  font-size: 1.87vw;
-  margin-left: 25vw;
+  width: 100%;
+  font-size: clamp(1.2rem, 1.8vw, 2rem);
   color: yellow;
   font-family: var(--font-secondary), Helvetica, sans-serif;
   transform: rotate(-5deg);
+  transition: text-shadow 0.1s ease-in-out;
+}
+
+.developer {
+  text-align: right;
   transition: text-shadow 0.1s ease-in-out;
 }
 .developer:hover {
@@ -643,21 +645,14 @@ html {
 
 @media (max-width: 768px) {
   .title {
-    font-size: 2rem;
     border: 0.3rem solid;
     border-radius: 0.5rem;
     text-shadow: 0 0 2px rgba(255, 255, 0, 0.8);
     box-shadow: 0 0 4px 1px rgba(255, 255, 0, 0.5);
   }
 
-  .frontend {
-    font-size: 1.2rem;
-    margin-right: 9rem;
-    text-shadow: 0 0 2px rgba(255, 255, 0, 0.8);
-  }
+  .frontend,
   .developer {
-    font-size: 1.2rem;
-    margin-left: 9rem;
     text-shadow: 0 0 2px rgba(255, 255, 0, 0.8);
   }
 }

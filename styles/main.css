@@ -25,11 +25,20 @@
   font-family: "StarJedi";
   src: url("../fonts/jedi.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "ArialRounded";
   src: url("../fonts/arialrounded.ttf") format("truetype");
 }
+
 body {
   font-family: var(--font-primary), Helvetica, sans-serif;
   font-size: 16px;
+}
+
+.home-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: block;
 }

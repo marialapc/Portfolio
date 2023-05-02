@@ -1,7 +1,7 @@
 .about {
-  background: #f0f1f3ff;
-  height: 100%;
   cursor: auto;
+  height: 100%;
+  background-color: #f0f1f3ff;
 }
 
 .main-about {
@@ -9,21 +9,24 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  padding: 2rem;
 }
 
 .home-icon-about {
   width: 1.87rem;
-  margin-right: 19.3rem;
-  margin-top: 2.18rem;
   transition: 0.2s;
 }
 
-.grogu {
-  width: 3.125rem;
-  position: fixed;
-  margin-bottom: 8.75rem;
-  margin-left: 6.25rem;
+.avatar {
+  position: relative;
+}
 
+.grogu {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 3.125rem;
   animation: levitate 2.3s infinite ease-in-out;
 }
 
@@ -31,45 +34,45 @@
   0% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-0.437rem);
   }
+
   100% {
     transform: translateY(0);
   }
 }
 
 .img {
+  width: 8.125rem;
   margin-right: 0.625rem;
   margin-top: -0.625rem;
-  width: 8.125rem;
   border-radius: 50%;
   border: 2px solid rgb(240, 240, 255);
 }
 
 .title-about {
+  margin-top: 0.93rem;
   font-family: var(--font-tertiary), Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 3.75rem;
   color: #f0f1f3ff;
   text-shadow: 0 8px 9px #c3c1c1, 0px -2px 1px #d6d3d3;
-  font-weight: bold;
   letter-spacing: -1px;
   border-radius: 20px;
-  font-size: 3.75rem;
-  margin-top: 0.93rem;
 }
 
 .text {
-  font-family: sans-serif;
-  font-weight: 500;
-  color: rgb(117, 116, 116);
-  font-size: 0.93rem;
-  margin-right: 2.5rem;
-  margin-left: 2.5rem;
-  text-align: center;
   display: flex;
   flex-direction: column;
   gap: 0.625rem;
-  margin-top: 1.25rem;
+  max-width: 37.5rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  color: rgb(117, 116, 116);
 }
 
 .adalab {
@@ -79,42 +82,42 @@
 }
 
 .download-btn {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
   width: 12.5rem;
   height: 2.5rem;
-  background-color: rgb(32, 148, 172);
-  padding: 0.31rem 0.625rem;
   margin-top: 2rem;
+  padding: 0.31rem 0.625rem;
   font-weight: bold;
   cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
   outline: none;
+  background-color: rgb(32, 148, 172);
   border-radius: 5px;
   border: none;
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
-  z-index: 1;
+  transition: all 0.3s ease;
 }
 
 .download-btn:after {
-  border-radius: 5px;
-  position: absolute;
   content: "";
-  width: 0;
-  height: 100%;
+  position: absolute;
   top: 0;
   z-index: -1;
+  width: 0;
+  right: 0;
+  height: 100%;
+  background-color: rgb(69, 67, 67);
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-  background-color: rgb(69, 67, 67);
-  right: 0;
+  border-radius: 5px;
 }
 
 .download-btn:hover:after {
-  width: 100%;
   left: 0;
+  width: 100%;
 }
 
 .download-btn:active {
@@ -128,6 +131,22 @@
   font-weight: 100;
   letter-spacing: 0.8px;
   -webkit-text-stroke: 0.1px black;
+}
+
+@media (max-width: 30rem) {
+  .title-about {
+    display: none;
+  }
+}
+
+@media (max-height: 37rem) {
+  .text-description {
+    display: none;
+  }
+
+  .title-about {
+    display: block;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -153,21 +172,8 @@
     margin-left: 21.25rem;
     margin-top: -2.18rem;
   }
-  .text {
-    font-size: 1rem;
-    width: 37.5rem;
-    margin-top: 2.5rem;
-    line-height: 1.87rem;
-  }
 
   .download-btn {
     margin-top: 2.5rem;
-  }
-
-  .grogu {
-    width: 4.37rem;
-    position: fixed;
-    margin-bottom: 3.125rem;
-    margin-left: 35.93rem;
   }
 }
