@@ -27,6 +27,7 @@ function moveDroid(event) {
   }
 
   clearTimeout(timeoutId);
+
   timeoutId = setTimeout(() => {
     droidBody.classList.remove("rotate-right");
     droidBody.classList.remove("rotate-left");

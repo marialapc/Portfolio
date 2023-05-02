@@ -30,6 +30,7 @@
 }
 
 .card {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -40,6 +41,7 @@
   background-color: white;
   box-shadow: 0 0 15px 3px rgb(224, 223, 224);
   transition: 0.5s;
+  border-radius: 8px;
 }
 
 .card-link {
@@ -58,8 +60,7 @@
   cursor: url(../images/sable.png), pointer;
 }
 
-.text-container {
-  position: relative;
+.text-container { 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,9 +69,11 @@
 
 .card-title {
   margin-top: 0.31rem;
+  margin-bottom: 0.5rem;
   font-family: var(--font-secondary), Helvetica, sans-serif;
   color: rgb(23, 145, 169);
   font-size: 1.43rem;
+  line-height: 1.2;
   text-align: center;
 }
 
@@ -85,7 +88,7 @@
 
 .github {
   position: absolute;
-  bottom: -1rem;
+  bottom: 1rem;
   right: 1rem;
 }
 
@@ -137,8 +140,8 @@
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+    padding-bottom: 2rem;
     transition: 0.5s;
-    border-radius: 8px;
   }
 
   .card:hover {

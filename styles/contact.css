@@ -2,6 +2,7 @@
   background: #f0f1f3ff;
   height: 100%;
   cursor: auto;
+  padding: 2rem;
 }
 
 .main-contact {
@@ -27,7 +28,7 @@
   font-weight: bold;
   letter-spacing: -1px;
   border-radius: 1.25rem;
-  font-size: 3.75rem;
+  font-size: 3rem;
   margin-top: 9.37rem;
 }
 
@@ -114,8 +115,6 @@
 .head {
   background-color: #dad5cd;
   border-radius: 90px 90px 14px 14px;
-  -moz-border-radius: 90px 90px 14px 14px;
-  -webkit-border-radius: 90px 90px 14px 14px;
   height: 56px;
   margin-left: -45px;
   overflow: hidden;
@@ -138,16 +137,19 @@
   top: 6px;
   opacity: 0.8;
 }
+
 .band-two {
   background: rgb(210, 124, 71);
   height: 4px;
   top: 17px;
 }
+
 .band-three {
   background: rgb(188, 179, 179);
   height: 4px;
   top: 27px;
 }
+
 .eyes {
   display: block;
   height: 100%;
@@ -209,6 +211,7 @@
   top: 2px;
   left: 2px;
 }
+
 .droid-body {
   position: relative;
   width: var(--size);
@@ -216,6 +219,7 @@
   overflow: hidden;
   background: #ded7ce;
   border-radius: 50%;
+  transform: scale(1);
 }
 
 .lines {

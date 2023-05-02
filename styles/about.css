@@ -152,9 +152,6 @@
 @media (min-width: 1000px) {
   .home-icon-about {
     width: 2.187rem;
-    margin-left: 81.25rem;
-    margin-top: 3.125rem;
-    margin-right: 0;
   }
 
   .home-icon-about:hover {
