@@ -587,7 +587,7 @@ html {
 .title {
   color: yellow;
   font-family: var(--font-secondary), Helvetica, sans-serif;
-  font-size: clamp(1.4rem, 10vw, 3rem);
+  font-size: clamp(1.4rem, 10vw, 4rem);
   border: 0.56rem solid yellow;
   border-radius: 0.93rem;
   padding: 0.68rem;
@@ -613,7 +613,7 @@ html {
 .frontend,
 .developer {
   width: 100%;
-  font-size: clamp(1.2rem, 1.8vw, 2rem);
+  font-size: clamp(1.2rem, 1.8vw, 3rem);
   color: yellow;
   font-family: var(--font-secondary), Helvetica, sans-serif;
   transform: rotate(-5deg);
