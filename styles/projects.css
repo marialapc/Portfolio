@@ -37,11 +37,12 @@
   gap: 1rem;
   width: 21.25rem;
   height: 14.37rem;
-  padding: 1rem;
+  padding: 0.35rem;
   background-color: white;
   box-shadow: 0 0 15px 3px rgb(224, 223, 224);
   transition: 0.5s;
   border-radius: 8px;
+  
 }
 
 .card-link {
@@ -54,7 +55,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: unset;
+ height: 100%;
   background-color: black;
   border-radius: 6px;
   cursor: url(../images/sable.png), pointer;
@@ -65,10 +66,10 @@
   flex-direction: column;
   align-items: center;
   width: 12.5rem;
+  margin-right: 0.5rem;
 }
 
 .card-title {
-  margin-top: 0.31rem;
   margin-bottom: 0.5rem;
   font-family: var(--font-secondary), Helvetica, sans-serif;
   color: rgb(23, 145, 169);
@@ -80,6 +81,7 @@
 .card-text {
   width: 10.62rem;
   margin-top: 0.93rem;
+  margin-bottom: 1rem;
   font-family: sans-serif;
   font-size: 0.73rem;
   line-height: 1.5;
@@ -168,8 +170,8 @@
   .text-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 25rem;
+    margin-bottom: 2rem;
   }
   .card-title {
     font-size: 1.87rem;
@@ -177,14 +179,18 @@
 
   .card-text {
     width: 21.87rem;
-    margin-top: 0.18rem;
     font-weight: 100;
     font-family: sans-serif;
     font-size: 0.84rem;
+    margin-top: 0;
     margin-left: 1.87rem;
     margin-right: 1.25rem;
     line-height: 1.5;
 
+  }
+
+  .github{
+  padding-left: 2rem;
   }
 
   .github-logo {
