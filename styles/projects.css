@@ -27,6 +27,7 @@
   height: 100%;
   gap: 1rem;
   cursor: url(../images/sable.png), pointer;
+  margin-bottom: 5rem;
 }
 
 .card {
