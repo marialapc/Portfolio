@@ -147,7 +147,7 @@
 
   .card:hover {
     box-shadow: 0 0 10px 1px rgb(23, 145, 169);
-    height: 33.75rem;
+    height: 33.50rem;
     width: 25.50rem;
   }
 
@@ -184,6 +184,7 @@
     margin-left: 1.87rem;
     margin-right: 1.25rem;
     line-height: 1.5;
+
   }
 
   .github-logo {
