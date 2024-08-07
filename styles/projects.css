@@ -36,8 +36,18 @@
   transition: 0.5s;
 }
 
+.card--pink {
+  box-shadow: 0 0 19px 1px rgb(169, 23, 94);
+}
+
 .card:hover {
   box-shadow: 0 0 14px 1px rgb(0, 82, 197);
+  transform: scale(0.98);
+
+}
+
+.card--pink:hover {
+  box-shadow: 0 0 14px 1px rgb(138, 12, 88);
   transform: scale(0.98);
 
 }
@@ -71,6 +81,7 @@
   font-size: 1.43rem;
   line-height: 1.2;
   text-align: center;
+  letter-spacing: 0.08rem;
 }
 
 .card-text {
@@ -93,6 +104,9 @@
 
 .video-rocket {
   width: 6.87rem;
+}
+.video-towatch {
+  width: 22rem;
 }
 
 .image-rick {
