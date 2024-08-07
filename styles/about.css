@@ -1,16 +1,9 @@
 .about {
-  cursor: auto;
-  height: 100%;
-  background-color: #f0f1f3ff;
-}
-
-.main-about {
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  padding: 2rem;
 }
 
 .home-icon-about {
@@ -54,13 +47,10 @@
 
 .title-about {
   margin-top: 0.93rem;
-  font-family: var(--font-tertiary), Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 3.75rem;
-  color: #f0f1f3ff;
-  text-shadow: 0 8px 9px #c3c1c1, 0px -2px 1px #d6d3d3;
-  letter-spacing: -1px;
-  border-radius: 20px;
+  font-family: var(--font-secondary), Helvetica, sans-serif;
+  font-size: 2rem;
+  color: yellow;
+  letter-spacing: 0.25rem;
 }
 
 .text {
@@ -72,11 +62,11 @@
   font-size: 1rem;
   line-height: 1.5;
   text-align: center;
-  color: rgb(117, 116, 116);
+  color: white;
 }
 
 .adalab {
-  color: rgb(23, 145, 169);
+  color: rgb(32, 148, 172);
   font-weight: 600;
   text-decoration: none;
 }

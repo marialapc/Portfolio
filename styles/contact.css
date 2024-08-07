@@ -1,8 +1,8 @@
 .contact {
-  background: #f0f1f3ff;
-  height: 100%;
-  cursor: auto;
-  padding: 2rem;
+width: 100%;
+display: grid;
+place-content: center;
+height: 500px;
 }
 
 .main-contact {
@@ -22,14 +22,10 @@
 }
 
 .title-contact {
-  font-family: var(--font-tertiary), Helvetica, sans-serif;
-  color: #f0f1f3ff;
-  text-shadow: 0 8px 9px #c3c1c1, 0px -2px 1px #d6d3d3;
-  font-weight: bold;
-  letter-spacing: -1px;
-  border-radius: 1.25rem;
-  font-size: 3rem;
-  margin-top: 9.37rem;
+  font-family: var(--font-secondary), Helvetica, sans-serif;
+  color: yellow;
+  letter-spacing: 0.4rem;
+  font-size: 2rem;
 }
 
 .media-links {
@@ -58,7 +54,7 @@
   width: 2.25rem;
   height: 2.25rem;
   padding: 0.43rem;
-  background-color: black;
+  background-color: #fff;
   border-radius: 0.15rem;
   transition: 0.3s;
   filter: grayscale(4) brightness(1);
@@ -67,7 +63,7 @@
   width: 2rem;
   height: 2rem;
   padding: 0.625rem;
-  opacity: 0.5;
+  opacity: 0.9;
 }
 
 /* BB8 */
@@ -76,7 +72,7 @@
   position: absolute;
   margin-left: 0;
   width: var(--size);
-  bottom: 20%;
+  bottom: 10%;
   left: 10%;
   z-index: 4;
   animation: move 10s linear infinite;
@@ -328,14 +324,16 @@
 }
 
 @media (min-width: 1000px) {
-  .home-icon-contact {
-    width: 2.187rem;
-  }
+
+  .contact {
+    height: 800px;
+    }
 
   .title-contact {
-    font-size: 6.25rem;
-    margin-top: 3.12rem;
-    letter-spacing: -0.25rem;
+    font-size: 4rem;
+  }
+  .home-icon-contact {
+    width: 2.187rem;
   }
 
   .media-links {

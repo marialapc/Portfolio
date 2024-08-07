@@ -2,7 +2,7 @@
 @import url(./projects.css);
 @import url(./landing.css);
 @import url(./contact.css);
-@import url(./footer.css);
+@import url(./navbar.css);
 
 :root {
   --font-primary: Helvetica;
@@ -41,4 +41,5 @@ body {
   top: 2rem;
   right: 2rem;
   display: block;
+
 }

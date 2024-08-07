@@ -1,6 +1,5 @@
 .projects {
-  height: 100%;
-  background-color: #f0f1f3ff;
+  width: 90%;
 }
 
 .main-projects {
@@ -10,40 +9,37 @@
   justify-content: center;
 }
 
-.home-icon-projects {
-  width: 1.87rem;
-  transition: 0.2s;
-}
-
-.home-icon-projects:hover {
-  width: 2.37rem;
-}
 
 .cards {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  gap: 1rem;
+  gap: 2rem;
+  padding: 2rem;
   cursor: url(../images/sable.png), pointer;
-  margin-bottom: 5rem;
 }
 
 .card {
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   gap: 1rem;
-  width: 21.25rem;
-  height: 14.37rem;
+  max-width: 18.5rem;
   padding: 0.35rem;
-  background-color: white;
-  box-shadow: 0 0 15px 3px rgb(224, 223, 224);
-  transition: 0.5s;
+  padding-bottom: 2rem;
+  background-color: #f7f7f7;
   border-radius: 8px;
-  
+  box-shadow: 0 0 19px 1px rgb(23, 145, 169);
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.card:hover {
+  box-shadow: 0 0 14px 1px rgb(0, 82, 197);
+  transform: scale(0.98);
+
 }
 
 .card-link {
@@ -56,22 +52,20 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
- height: 100%;
+  height: 14rem;
   background-color: black;
   border-radius: 6px;
   cursor: url(../images/sable.png), pointer;
 }
 
-.text-container { 
+.text-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 12.5rem;
   margin-right: 0.5rem;
 }
 
 .card-title {
-  margin-bottom: 0.5rem;
   font-family: var(--font-secondary), Helvetica, sans-serif;
   color: rgb(23, 145, 169);
   font-size: 1.43rem;
@@ -80,11 +74,9 @@
 }
 
 .card-text {
-  width: 10.62rem;
-  margin-top: 0.93rem;
-  margin-bottom: 1rem;
+  padding: 1rem;
   font-family: sans-serif;
-  font-size: 0.73rem;
+  font-size: 0.875rem;
   line-height: 1.5;
   text-align: center;
 }
@@ -118,40 +110,13 @@
 }
 
 @media (min-width: 1000px) {
-  .home-icon-projects {
-    width: 2.187rem;
-  }
 
-  .home-icon-projects:hover {
-    width: 2.37rem;
-  }
-
-  .cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 5.62rem;
-    height: 100%;
+  .projects {
+    max-width: 60%;
   }
 
   .card {
-    height: 33.25rem;
-    width: 25rem;
-    box-shadow: 0 0 15px 3px rgb(179, 174, 185);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
-    padding-bottom: 2rem;
-    transition: 0.5s;
-    margin-bottom: 5rem;
-  }
-
-  .card:hover {
-    box-shadow: 0 0 10px 1px rgb(23, 145, 169);
-    height: 33.50rem;
-    width: 25.50rem;
+    max-width: 25rem;
   }
 
   .video-container {
@@ -169,10 +134,7 @@
   }
 
   .text-container {
-    display: flex;
-    flex-direction: column;
     width: 25rem;
-    margin-bottom: 2rem;
   }
   .card-title {
     font-size: 1.87rem;
@@ -180,18 +142,13 @@
 
   .card-text {
     width: 21.87rem;
-    font-weight: 100;
-    font-family: sans-serif;
-    font-size: 0.84rem;
+    font-size: 1rem;
     margin-top: 0;
-    margin-left: 1.87rem;
-    margin-right: 1.25rem;
     line-height: 1.5;
-
   }
 
-  .github{
-  padding-left: 2rem;
+  .github {
+    padding-left: 2rem;
   }
 
   .github-logo {

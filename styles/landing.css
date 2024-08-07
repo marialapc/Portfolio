@@ -1,7 +1,7 @@
 html {
   background: radial-gradient(ellipse at bottom, #060708 0%, #090a0f 100%);
-  overflow: hidden;
-  height: 100%;
+  height: auto;
+  min-height: 100vh;
 }
 
 .stars {
@@ -10,7 +10,6 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden;
   z-index: -1;
 }
 
@@ -568,9 +567,8 @@ html {
 }
 
 .main {
-  height: 100vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   cursor: url(../images/sable.png), pointer;
@@ -581,7 +579,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 5.31rem;
+  height: 100vh;
 }
 
 .title {
