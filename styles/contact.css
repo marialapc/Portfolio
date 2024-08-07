@@ -5,12 +5,6 @@ place-content: center;
 height: 500px;
 }
 
-.main-contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 
 .home-icon-contact {
   width: 1.87rem;
