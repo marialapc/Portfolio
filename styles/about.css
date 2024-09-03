@@ -69,10 +69,12 @@
   gap: 0.625rem;
   max-width: 37.5rem;
   margin-top: 2rem;
-  font-size: 1rem;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+  font-size: 0.95rem;
   line-height: 1.5;
-  text-align: center;
-  color: rgb(117, 116, 116);
+  text-align: left;
+  color: black;
 }
 
 .adalab {
@@ -99,6 +101,8 @@
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   margin-bottom: 5rem;
+  margin-left: 1rem;
+  align-self: baseline;
 }
 
 .download-btn:after {
@@ -109,7 +113,7 @@
   width: 0;
   right: 0;
   height: 100%;
-  background-color: rgb(69, 67, 67);
+  background-color: rgb(28, 28, 28);
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
@@ -150,6 +154,22 @@
   }
 }
 
+@media (min-width: 768px) { 
+  .text {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0;
+  }
+
+  
+  .download-btn {
+    margin-left: 0;
+    margin-top: 2.5rem;
+    align-self: auto;
+  }
+}
+
+
 @media (min-width: 1000px) {
   .home-icon-about {
     width: 2.187rem;
@@ -169,9 +189,5 @@
     width: 12.5rem;
     margin-left: 21.25rem;
     margin-top: -2.18rem;
-  }
-
-  .download-btn {
-    margin-top: 2.5rem;
   }
 }

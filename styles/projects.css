@@ -1,14 +1,11 @@
 .projects {
   height: 100%;
   background-color: #f0f1f3ff;
-}
-
-.main-projects {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 
 .home-icon-projects {
   width: 1.87rem;
@@ -21,42 +18,41 @@
 
 .cards {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  height: 100%;
   gap: 1rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  padding-bottom: 2rem;
   cursor: url(../images/sable.png), pointer;
-  margin-bottom: 5rem;
+  overflow-x: scroll; 
 }
 
 .card {
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  gap: 1rem;
-  width: 21.25rem;
-  height: 14.37rem;
+  height: 26.7rem;
   padding: 0.35rem;
   background-color: white;
   box-shadow: 0 0 15px 3px rgb(224, 223, 224);
   transition: 0.5s;
   border-radius: 8px;
-  
 }
 
 .card-link {
   width: 100%;
-  height: 100%;
+  text-decoration: none;
+  color: black;
 }
 
 .video-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
- height: 100%;
+  height: 14rem;
   background-color: black;
   border-radius: 6px;
   cursor: url(../images/sable.png), pointer;
@@ -66,11 +62,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 12.5rem;
-  margin-right: 0.5rem;
+
 }
 
 .card-title {
+  margin-top: 1rem;
   margin-bottom: 0.5rem;
   font-family: var(--font-secondary), Helvetica, sans-serif;
   color: rgb(23, 145, 169);
@@ -80,7 +76,7 @@
 }
 
 .card-text {
-  width: 10.62rem;
+  width: 13.3rem;
   margin-top: 0.93rem;
   margin-bottom: 1rem;
   font-family: sans-serif;
@@ -103,13 +99,18 @@
   width: 6.87rem;
 }
 
+.video-towatch {
+  width: 14rem;
+}
+
 .image-rick {
   width: 6.25rem;
   border-radius: 0.31rem;
 }
 
 .image-rick-detail {
-  display: none;
+  width: 6.25rem;
+  border-radius: 0.31rem;
 }
 
 .sable {
@@ -117,7 +118,21 @@
   position: absolute;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 820px) {
+  .cards {
+    overflow-x: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    grid-gap: 2rem;
+    }
+
+    .card {
+      width: 18rem;
+    }
+}
+
+@media (min-width: 1025px) {
   .home-icon-projects {
     width: 2.187rem;
   }
@@ -126,69 +141,23 @@
     width: 2.37rem;
   }
 
-  .cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 5.62rem;
-    height: 100%;
-  }
-
-  .card {
-    height: 33.25rem;
-    width: 25rem;
-    box-shadow: 0 0 15px 3px rgb(179, 174, 185);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
-    padding-bottom: 2rem;
-    transition: 0.5s;
-    margin-bottom: 5rem;
-  }
-
   .card:hover {
     box-shadow: 0 0 10px 1px rgb(23, 145, 169);
-    height: 33.50rem;
-    width: 25.50rem;
+    transform: scale(1.02);
   }
 
-  .video-container {
+  .card--pink:hover {
+    box-shadow: 0 0 10px 1px rgb(198, 28, 121);
+  }
+
+  .cards {
+    overflow-x: auto;
+    height: 100%;
     width: 100%;
-    min-height: 22rem;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    background-color: black;
-    gap: 0.625rem;
-  }
-
-  .video-rocket {
-    width: 11.87rem;
-  }
-
-  .text-container {
-    display: flex;
-    flex-direction: column;
-    width: 25rem;
-    margin-bottom: 2rem;
-  }
-  .card-title {
-    font-size: 1.87rem;
-  }
-
-  .card-text {
-    width: 21.87rem;
-    font-weight: 100;
-    font-family: sans-serif;
-    font-size: 0.84rem;
-    margin-top: 0;
-    margin-left: 1.87rem;
-    margin-right: 1.25rem;
-    line-height: 1.5;
-
-  }
+    justify-content: center;
+    }
 
   .github{
   padding-left: 2rem;
@@ -200,17 +169,5 @@
 
   .github-logo:hover {
     width: 1.81rem;
-  }
-
-  .image-rick {
-    width: 9.37rem;
-    border-radius: 1.25rem;
-    margin-left: 0.5rem;
-  }
-
-  .image-rick-detail {
-    width: 9.37rem;
-    border-radius: 1.25rem;
-    display: block;
   }
 }
